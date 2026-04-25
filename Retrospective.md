@@ -1,6 +1,8 @@
 # Retrospective: the SuccessFactors LMS Integration Thermo Fisher Scientific 
 
+When I tell people I work at Thermo Fisher Scientific, they pause, look off into the distance for a split second, look back at me, and say "Thermo Fisher...do they make lab equipment?" I immediately say "Yes! You're correct." Even folks within the industry aren't entirely sure what Thermo Fisher makes or does. In concept, Thermo Fisher is a company that supplies the Biotech, Pharmaceutical, Clinical Research, and Medical Device industries. They have a wide portfolio of offerings from analytical testing instruments, DNA sequencing, buffers and media, and even specialized bags for products to be packaged in. This is because Thermo Fisher acquires companies that are already commercial, and let them continue to self -govern. Because they had existed for years prior, they have their own internal training programs. Training is a key part of this industry due to the impact of the health care products and is a mandatory part of audits.  
 
+## Personas
 - users - site level. Actions: - Users online need to open trainings, watch videos, read documents, sign up for training, access old training content, take quizzes, request extensions. 
 = managers - site level. Actions: same as users, assign trainings, extend, unlock tests, remove trainings, see user completion status, perform 3-year training review. 
 - site Training Coordinators - same as managers, create curriculums, add content, add links, pull training metrics, show completion during audits.
@@ -8,19 +10,14 @@
 - huamn resources technology team - work with the software package to implement platform, integrate APIs from associated systems (Workday, OCPLM, etc.)
 
 
-Main points - not enough user inputs
-- not enough communication or alliance across all personas to achieve final business needs 
+## Problems 
+- Not enough foresight on user needs, weak alliance across all personas to customize interface to individual site needs. 
+- License limiting functions. 
 - user interface is terrible, hard to perform tasks or search for information. 
     - Hard to maintain across all users
 - rush, a lot of mistakes 
 - once it's set up, it's hard to undo 
 - manual 
-
-
-
-* Describe what users need to do so people who have never touched the system will understand 
-- managers need to 
-- training coordinators - 
 
 Problem - implementation with license and technical created user interface problems where simple tasks were more complicated. finding information became difficult as well, adn they have difficulty accessing past trainings. Platform features such as refreshing, back buttons, timeouts, different windows, made it hard to retrace steps or keep track of information while on the same page. Not enough pre-work was done to determine user needs and functions. It's 
 Thermo fisher is so big and just a collection of smaller companies, each one had originally had their own training system. They did a project to harmonize it to one platform, SFLMS. From a project management perspective, not enough was done to gather user needs at the site level, and either the license bought wasn't right, or the interface was built where normally straightforward processes were longer, a million clicks and different pages that made a non-linear process from different windows. You need precise filters and steps to find simple information you want, and it'll clear out or time you out if you try to retrace your step and the solition is non intuitive. There's also no clear relatinoship between different items in the hierarchy, and the terms are unclear and hard to follow, which made ecommunication difficult. And then it was built by people who did not work at the site level to understand what was needed. You can know the top level and find content below, but can't retrace hierarchy upwards. One learning item or curriculum might be added to several parent curriculums across departments. 
