@@ -22,13 +22,23 @@ When I tell people I work at Thermo Fisher Scientific, they pause, look up, and 
 Problem - implementation with license and technical created user interface problems where simple tasks were more complicated.
 While the 
 
- Finding information became difficult as well, and they have difficulty accessing past trainings. Platform features such as refreshing, back buttons, timeouts, different windows, made it hard to retrace steps or keep track of information while on the same page. 
+What is now difficult
+- Hierarchy of different training components are unclear, and the nesting structure cannot be traced upward. Different terminology and so many different item types disrupt communication across personas in the learning process and make it hard to manage. 
+- Unintuitive interface makes finding information and performing tasks difficult. 
+- Implementing changes and logging trainings requires users to locate information from to different pages that will clear once the user returns to the task page instead of the information being accessible from a single window so the process can be completed in a linear set of steps. 
+- Refresh buttons, fast timeouts, and the use of similar titles in different places make it difficult to retrace your steps when you find the right process.
+- The search feature is not broad, precise filters and different methods are necessary to find the right information and require a long series of clicks. 
 
-You need precise filters and steps to find simple information you want, and it'll clear out or time you out if you try to retrace your step and the solution is non intuitive. There's also no clear relatinoship between different items in the hierarchy, and the terms are unclear and hard to follow, which made ecommunication difficult. And then it was built by people who did not work at the site level to understand what was needed. You can know the top level and find content below, but can't retrace hierarchy upwards. One learning item or curriculum might be added to several parent curriculums across departments. 
 
-- It was a rushed project, so thousands of prior training records and current documents had to be rush implemented manually. 
+Where I believe it went wrong at the system level
+- Licenses were chosen and the platform was built with insufficient input from personas at the site level.
+
+
+Data Migration
+- It was a rushed project, thousands of prior training records and current documents had to be implemented manually. 
+- Future training logs must be performed manually. 
 - Taking away automated process introduces risk for mistakes about the most important process (OJTs, the biggest pain point)
-- With all of these features such as due date, other aspects of the training limitations. Not enough support, all manual, wtih a million different elements. 
+- With all of these features such as due date, other aspects of the training limitations. 
 - It uses a curriculum structure where you can choose to group trainings, but the downside is that if you are late in one, you are overall late in the group level, and you might be assigned training to a process that happens infrequently or are outside of your job responsibiltiies, different sites with different products and different shifts, different roles. 
 - And it's hard to undo all of the work, and then everyone who is assigned would be considered late. 
 - Some choices were made about how the trainings were strcutred and grouped that were not what supervisors or people wanted, and the setup was really important. - There would be a selection where you could choose to make it only unlockable by an admin, so managers couldn't unassign. 
