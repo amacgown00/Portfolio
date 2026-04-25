@@ -3,11 +3,11 @@
 When I tell people I work at Thermo Fisher Scientific, they pause, look up, and say, "Thermo Fisher...I think I know what they do. They make...lab equipment?" I immediately say "Yes, you're absolutely correct." People across the world have likely heard of Thermo Fisher but even those within the life sciences industry have trouble characterizing the company as an entity3. In essence, Thermo Fisher is a major supplier to the Biotech, Pharmaceutical, Clinical Research, and Medical Device industries made possible by constant acquisitions. They have a broad range of offerings from analytical testing instruments, DNA sequencing, buffers and media, and even specialized single use bags for products to be packaged in. Because they had existed for years prior, each business has its own legacy training program. Two years ago, Thermo Fisher made the decision to harmonize training across the business units by implementing SuccessFactors Learning Management System (SFLMS). Before the implementation, my site was at 80% training compliance. After the implementation, we are only 25% compliant. Despite those numbers, only 25% of individual trainings are late. SFLMS is an industry standard for training, and I have been exposed to other companies with a more effective setup. I have interviewed a Quality Analyst, the training coordinator, managers, and users at my site. I have also interacted with SFLMS as a user, SFLMS Admin, and the legacy training system. Based on their input, this retrospective is my assessment of the implementation of SFLMS to production processes and what I would have done differently. 
 
 ## Personas
-- users - site level. Actions: - Users online need to open trainings, watch videos, read documents, sign up for training, access old training content, take quizzes, request extensions. 
-= managers - site level. Actions: same as users, assign trainings, extend, unlock tests, remove trainings, see user completion status, perform 3-year training review. 
-- site Training Coordinators - same as managers, create curriculums, add content, add links, pull training metrics, show completion during audits.
-- division quality Assurance - Project manage the integration, work with the Human Resources and Technology Group to design the interface, get input from the training coordinators at each site, provide training coordinator support, launch information about new features. 
-- huamn resources technology team - work with the software package to implement platform, integrate APIs from associated systems (Workday, OCPLM, etc.)
+- users - site level. Actions: - Users online need to open trainings, watch videos, read documents, sign up for training, access old training content, take quizzes, request extensions. Access rights: user
+= managers - site level. Actions: same as users, assign trainings, extend, unlock tests, remove trainings, see user completion status, perform 3-year training review. Access rights: manager
+- site Training Coordinators - same as managers, create curriculums, add content, add links, pull training metrics, show completion during audits. Access rights: SFLMS Admin
+- division quality Assurance - Project manage the integration, work with the Human Resources and Technology Group to design the interface, get input from the training coordinators at each site, provide training coordinator support, launch information about new features. Access rights: SFLMS Admin
+- Human resources technology team -  corporate, work with the software package to implement platform, integrate APIs from associated systems (Workday, OCPLM, etc.)
 
 
 ## Problems 
@@ -38,7 +38,8 @@ Data Migration
 - With all of these features such as due date, other aspects of the training limitations. 
 - It uses a curriculum structure where you can choose to group trainings, but the downside is that if you are late in one, you are overall late in the group level, and you might be assigned training to a process that happens infrequently or are outside of your job responsibiltiies, different sites with different products and different shifts, different roles. 
 - And it's hard to undo all of the work, and then everyone who is assigned would be considered late. 
-- Some choices were made about how the trainings were strcutred and grouped that were not what supervisors or people wanted, and the setup was really important. - There would be a selection where you could choose to make it only unlockable by an admin, so managers couldn't unassign. 
+- Some choices were made about how the trainings were structured and grouped that were not what supervisors wante just to meet the launch deadline. 
+- There would be a selection where you could choose to make it only unlockable by an admin, so managers couldn't modify or unassign. 
 - To modify a parent curriculum to remove one, you would have to "break" the entire thing and it would make everyone who was assigned those trainings late. 
 
 
@@ -55,34 +56,6 @@ Overhaul strategy
 - Create a user feedback loop showing ease of access or capability to perform functions 
 - Actually effective monitoring that aren't just training compliance KPIs? Meet with leaders on a routine basis? 
 
-
-Thermo Fisher Scientific is a company that manufactures and delivers a diverse porfolio of products spanning analytical instruments, DNA sequencing, laboratory materials, and sometimes is the only manufacturer of specialized equipment. It considered a leading supplier across Biotech, Pharma, Med Device, and Clinical Research industries. When I tell people that I work there, they will pause, look up, knit their eyebrows, and slowly say "I think I know what that company does...Do they make lab equipment?" I immediately say "Yes, you're absolutely correct." What is not always evident to those outside the industry is that it's not Biotech, it's not Pharma, and it's not the same as pointing out Moderna where you can say with confidence that it makes vaccines. Thermo Fisher makes so many products that are often completely unrelated to the point where the company cannot be easily characterized. This is because Thermo Fisher a collection of companies that were already commercial that were brought into the Thermo alliance without any technical influence and were left unchanged, process and culture-wise. As it stands, Thermo is actively M&A heavy and is constantly reevaluating its business units and incorporating new companies. In the life sciences industry, training is a critical point given that products will eventually impact people and is a standard audit topic. Given that companies were already independantly operating for years prior to the acquisition, most had already developed their own training system that fit the individual needs of their business. In 2023, the decision was made to implement a company-wide transition to  SFLMS (SuccessFactors Learning Management System) for training. My Quality Assurance role had previously been focused on the CAPA System and deviation management (investigations), and I transitioned to support the Training System in December 2025. This is my assessment of Thermo Fisher's implementation of SFLMS: how it was done, what went well, what did not, what the current state is, what I am doing to fix it, and what I recommend moving forward. I am only speaking from my experience in the Purification business, an individual business unit,
-\ with 2 connected sites producing the same product. 
-
-Vertical (Thermo Fisher Scientific)
-
-Personas
-
-Human Resources and Technology Analyst 
-- Level - Corporate
-- Department - Human Resources and Technology
-- Technical direct contributor  
-- Using APIs to build SFLMS and link other systems (Workday, SAP, Oracle Cloud Product Lifecycle Management).
-- Has no input on 
-- Works with Quality Analyst
-
-Quality Analyst
-- Level - Division (BioProduction Group)
-- Department - Quality Assurrance 
-- Non-technical direct contributor 
-- Provides system requirement input based on industry training standards
-- Interprets industry training standards 
-- Tests builds, conducts user acceptance testing, deploys the software, and develops and manages new features throughout the lifecycle of the software.
-- Works with Human Resources and Technology Analysts and Training Coordinators
-- Has no background of an individual site's training needs (processes, products, or original training structure)
-- Helps Training Coordinators migrate current training to SFLMS
-- Allows Training Coordinators decide how
-- SFLMS account rights: SFLMS Admin
 
 Training Coordinator
 - Direct contributor at the site-level. 
