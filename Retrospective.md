@@ -1,28 +1,25 @@
 # Retrospective: the SuccessFactors LMS Integration Thermo Fisher Scientific 
 
-When I tell people I work at Thermo Fisher Scientific, they pause, look up, and say, "Thermo Fisher...I think I know what they do. They make...lab equipment?" I immediately say "Yes, you're absolutely correct." Even folks within the life sciences industry don't have a clear understanding of Thermo Fisher as a company. In essence, Thermo Fisher is a supplier to the Biotech, Pharmaceutical, Clinical Research, and Medical Device industries made possible by constant acquisitions. They have a broad range of offerings from analytical testing instruments, DNA sequencing, buffers and media, and even specialized single use bags for products to be packaged in. Because they had existed for years prior, each business has its own legacy training program. Due to the regulatory impact and commitment of their customers, training is a key part of this industry due to the impact of the health care products and is a mandatory part of audits. Two years ago, Thermo Fisher made the decision to harmonize training across the business units by implementing SuccessFactors Learning Management System (SFLMS). I work in the Purification business that creates chromatography resins that pharma uses downstream in the process to purify their product and make it safe for customer use. Think of it as a Brita filter. Before the implementation, my site was at 80% training compliance. After the implementation, we are only 25% compliant. Despite those numbers, only 25% of the trainings are late. SFLMS is an industry standard for training. This retrospective is my assessment of the implementation of SFLMS to production processes and what I would have done differently. 
+When I tell people I work at Thermo Fisher Scientific, they pause, look up, and say, "Thermo Fisher...I think I know what they do. They make...lab equipment?" I immediately say "Yes, you're absolutely correct." People across the world have likely heard of Thermo Fisher but even those within the life sciences industry have trouble characterizing the company as an entity3. In essence, Thermo Fisher is a major supplier to the Biotech, Pharmaceutical, Clinical Research, and Medical Device industries made possible by constant acquisitions. They have a broad range of offerings from analytical testing instruments, DNA sequencing, buffers and media, and even specialized single use bags for products to be packaged in. Because they had existed for years prior, each business has its own legacy training program. Two years ago, Thermo Fisher made the decision to harmonize training across the business units by implementing SuccessFactors Learning Management System (SFLMS). Before the implementation, my site was at 80% training compliance. After the implementation, we are only 25% compliant. Despite those numbers, only 25% of individual trainings are late. SFLMS is an industry standard for training, and I have been exposed to other companies with a more effective setup. This retrospective is my assessment of the implementation of SFLMS to production processes and what I would have done differently. 
 
 ## Personas
 - users - site level. Actions: - Users online need to open trainings, watch videos, read documents, sign up for training, access old training content, take quizzes, request extensions. 
 = managers - site level. Actions: same as users, assign trainings, extend, unlock tests, remove trainings, see user completion status, perform 3-year training review. 
 - site Training Coordinators - same as managers, create curriculums, add content, add links, pull training metrics, show completion during audits.
-- division quality Assurance - Project manage the integration, work with the Human Resources and Technology Group to design the interface, get input from the training coordinators at each site, and 
+- division quality Assurance - Project manage the integration, work with the Human Resources and Technology Group to design the interface, get input from the training coordinators at each site, provide training coordinator support, launch information about new features. 
 - huamn resources technology team - work with the software package to implement platform, integrate APIs from associated systems (Workday, OCPLM, etc.)
 
 
 ## Problems 
 - Not enough foresight on user needs, inconsistent alliance across all personas to establish a platform to meet site needs. 
-- License limiting functions. 
-- user interface is terrible, hard to perform tasks or search for information. 
-    - Hard to maintain across all users
+- Functions limited by license type. 
+- User interface makes it hard to perform routine functions and find information, which makes it hard to maintain. 
 - rush, a lot of mistakes 
 - once it's set up, it's hard to undo 
 - manual 
 
-Problem - implementation with license and technical created user interface problems where simple tasks were more complicated.
-While the 
 
-What is now difficult
+Functional Challenges 
 - Hierarchy of different training components are unclear, and the nesting structure cannot be traced upward. Different terminology and so many different item types disrupt communication across personas in the learning process and make it hard to manage. 
 - Unintuitive interface makes finding information and performing tasks difficult. 
 - Implementing changes and logging trainings requires users to locate information from to different pages that will clear once the user returns to the task page instead of the information being accessible from a single window so the process can be completed in a linear set of steps. 
