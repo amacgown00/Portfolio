@@ -12,7 +12,7 @@ When I tell people I work at Thermo Fisher Scientific, they pause, look up, and 
 
 ## Problems 
 - Not enough foresight on user needs, inconsistent alliance across all personas to establish a platform to meet site needs. 
-- Functions limited by license type. 
+- Functions limited by license type, and actions lack adequate controls. 
 - User interface makes it hard to perform routine functions and find information, which makes it hard to maintain. 
 - rush, a lot of mistakes 
 - once it's set up, it's hard to undo 
@@ -25,10 +25,6 @@ Functional Challenges
 - Implementing changes and logging trainings requires users to locate information from to different pages that will clear once the user returns to the task page instead of the information being accessible from a single window so the process can be completed in a linear set of steps. 
 - Refresh buttons, fast timeouts, and the use of similar titles in different places make it difficult to retrace your steps when you find the right process.
 - The search feature is not broad, precise filters and different methods are necessary to find the right information and require a long series of clicks. 
-
-
-Where I believe it went wrong at the system level
-- Licenses were chosen and the platform was built with insufficient input from personas at the site level.
 
 
 Data Migration
@@ -57,24 +53,6 @@ Overhaul strategy
 - Actually effective monitoring that aren't just training compliance KPIs? Meet with leaders on a routine basis? 
 
 
-Training Coordinator
-- Direct contributor at the site-level. 
-- Determines and manages curriculum structure and training requirements across all department functions. 
-- Participates in all Audits to present training material. 
-- SFLMS account rights: SFLMS Admin Role
-- Manages the site-specific training: can assign, extend, reset, remove, and override training
-- Works with Quality Analysts and all site personnel.
-
-Leaders - Supervisors and Managers
-- Site-level roles with direct reports.
-- SFLMS account rights - Manager Role
-- Assigns training to direct reports. 
-- Cannot modify or remove trainings assigned by an SFLMS Admin. 
-- Cannot modify curriculum structure or requirements. 
-
-Current state:
-2 years following the implementation, Only 25% of the people at the site have a noncompliant training status. Prior to the SFLMS implementation, the site training compliance was at 90%. 
-
 Bedford Campus
 
 What went well
@@ -82,7 +60,6 @@ The SFLMS implementation was completed in 2 years. Almost 100% of sites have int
 
 What did not go well
 
-It was a rushed implementation. The Quality Analysts were working with the Training Coordinators and scrambling to migrate years worth of learning data into a new system. 
 
 It's unclear what license we have specifically, its functions are limited or there are poor controls. For example, Admins have the ability to add documents to a user's learning history, such as signed training completion forms that are pulled during audits. Although we have the capability, doing this would increase the cost of the license. Either there is a disconnect between the Human Resources Technical System team and the actual users where actions should be limited, no one collected the needs of the users before implementation, or the company did not evaluate the license enough. This would not be the first time-- The implementation of Oracle Cloud Platform Lifecycle Management had a similar issue where all users were granted authoring roles where they could initiate change orders to make their own document changes, but the company evaluated the license again, found that it was too expensive to provide everyone access, and removed almost everyone's author access level, which caused a host of production problems. 
 
