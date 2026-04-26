@@ -18,6 +18,8 @@ When I tell people I work at Thermo Fisher Scientific, they pause, look up, and 
 - once it's set up, it's hard to undo 
 - manual 
 
+License type - limited functionality and lack of adequate controls. 
+- For example, Admins have the ability to add documents to a user's learning history, such as signed training completion forms that are pulled during audits. 
 
 Functional Challenges 
 - Hierarchy of different training components are unclear, and the nesting structure cannot be traced upward. Different terminology and so many different item types disrupt communication across personas in the learning process and make it hard to manage. 
@@ -61,7 +63,7 @@ The SFLMS implementation was completed in 2 years. Almost 100% of sites have int
 What did not go well
 
 
-It's unclear what license we have specifically, its functions are limited or there are poor controls. For example, Admins have the ability to add documents to a user's learning history, such as signed training completion forms that are pulled during audits. Although we have the capability, doing this would increase the cost of the license. Either there is a disconnect between the Human Resources Technical System team and the actual users where actions should be limited, no one collected the needs of the users before implementation, or the company did not evaluate the license enough. This would not be the first time-- The implementation of Oracle Cloud Platform Lifecycle Management had a similar issue where all users were granted authoring roles where they could initiate change orders to make their own document changes, but the company evaluated the license again, found that it was too expensive to provide everyone access, and removed almost everyone's author access level, which caused a host of production problems. 
+Although we have the capability, doing this would increase the cost of the license. Either there is a disconnect between the Human Resources Technical System team and the actual users where actions should be limited, no one collected the needs of the users before implementation, or the company did not evaluate the license enough. This would not be the first time-- The implementation of Oracle Cloud Platform Lifecycle Management had a similar issue where all users were granted authoring roles where they could initiate change orders to make their own document changes, but the company evaluated the license again, found that it was too expensive to provide everyone access, and removed almost everyone's author access level, which caused a host of production problems. 
 
 
 There are UI problems, and it's not intuitive to perform simple tasks. There are too many inputs and filters required that need to be selected instead of it having a strong search engine. There are all these nested folders and things you need to click to get where you need to be, if you find the answer, clicking the back button will sometimes reset everything, and the inactivity log-out window is quite short. 
