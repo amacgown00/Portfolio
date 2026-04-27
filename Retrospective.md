@@ -1,8 +1,12 @@
 # Retrospective: the SuccessFactors LMS Integration Thermo Fisher Scientific 
 
-When I tell people I work at Thermo Fisher Scientific, they pause, look up, and say, "Thermo Fisher...I think I know what they do. They make...lab equipment?" I immediately say "Yes, you're absolutely correct." In essence, Thermo Fisher is a major supplier to the Biotech, Pharmaceutical, Clinical Research, and Medical Device industries made possible by constant acquisitions. They have a broad range of offerings from analytical testing instruments, DNA sequencing, buffers and media, and even specialized single use bags for products to be packaged in. Because these companies were commercial prior to the acquisition, each business has its own legacy training program. Two years ago, Thermo Fisher made the decision to harmonize training across the business units by implementing SuccessFactors Learning Management System (SFLMS). Before the implementation, my site was at 80% training compliance. After the implementation, we are only 25% personnel compliant. Despite these numbers, only 25% of individual trainings are late. This is my retrospective of the implementation of SFLMS and what I would have done differently. Based on their input, this retrospective is my assessment of the implementation of SFLMS to production processes and what I would have done differently. 
+Thermo Fisher is a major supplier to the Biotech and Pharmaceutical industries and offer a broad range of products made possible by constant acquisitions. I am a Quality Engineer in the Purification business at the Bedford Campus in Massachusetts. My previous focus was investigations, and I have recently transitioned to the Training System. 
 
-Thermo fisher is in the life sciences vertical. My role has changed recently, I was a Quality Engineer for investigations and my role has transitioned where I am in the Training System. I work for this branch that does x 
+Because these companies were commercial prior to the acquisition, each business has its own legacy training program. Two years ago, Thermo Fisher made the decision to harmonize training across the sites by implementing SuccessFactors Learning Management System (SFLMS). 
+
+
+Before the implementation, my site was at 80% training compliance. After the implementation, we are only 25% personnel compliant. Despite these numbers, only 25% of individual trainings are late. This is my retrospective of the implementation of SFLMS and what I would have done differently. Based on their input, this retrospective is my assessment of the implementation of SFLMS to production processes and what I would have done differently. 
+
 
 ## Personas and functions on SFLMS
 - users - site level, User Access rights. Functions/Actions: - open trainings, watch videos, read documents, sign up for training, access old training content, complete quizzes, request training extensions. Access rights: user
