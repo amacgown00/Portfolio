@@ -1,6 +1,6 @@
 # Retrospective: the SuccessFactors LMS Integration Thermo Fisher Scientific 
 
-When I tell people I work at Thermo Fisher Scientific, they pause, look up, and say, "Thermo Fisher...I think I know what they do. They make...lab equipment?" I immediately say "Yes, you're absolutely correct." People across the world have likely heard of Thermo Fisher but even those within the life sciences industry have trouble characterizing the company as an entity. In essence, Thermo Fisher is a major supplier to the Biotech, Pharmaceutical, Clinical Research, and Medical Device industries made possible by constant acquisitions. They have a broad range of offerings from analytical testing instruments, DNA sequencing, buffers and media, and even specialized single use bags for products to be packaged in. Because these companies were commercial prior to the acquisition, each business has its own legacy training program. Two years ago, Thermo Fisher made the decision to harmonize training across the business units by implementing SuccessFactors Learning Management System (SFLMS). Before the implementation, my site was at 80% training compliance. After the implementation, we are only 25% personnel compliant. Despite these numbers, only 25% of individual trainings are late. This is my retrospective of the implementation of SFLMS and what I would have done differently. Based on their input, this retrospective is my assessment of the implementation of SFLMS to production processes and what I would have done differently. 
+When I tell people I work at Thermo Fisher Scientific, they pause, look up, and say, "Thermo Fisher...I think I know what they do. They make...lab equipment?" I immediately say "Yes, you're absolutely correct." In essence, Thermo Fisher is a major supplier to the Biotech, Pharmaceutical, Clinical Research, and Medical Device industries made possible by constant acquisitions. They have a broad range of offerings from analytical testing instruments, DNA sequencing, buffers and media, and even specialized single use bags for products to be packaged in. Because these companies were commercial prior to the acquisition, each business has its own legacy training program. Two years ago, Thermo Fisher made the decision to harmonize training across the business units by implementing SuccessFactors Learning Management System (SFLMS). Before the implementation, my site was at 80% training compliance. After the implementation, we are only 25% personnel compliant. Despite these numbers, only 25% of individual trainings are late. This is my retrospective of the implementation of SFLMS and what I would have done differently. Based on their input, this retrospective is my assessment of the implementation of SFLMS to production processes and what I would have done differently. 
 
 Thermo fisher is in the life sciences vertical. My role has changed recently, I was a Quality Engineer for investigations and my role has transitioned where I am in the Training System. I work for this branch that does x 
 
@@ -58,38 +58,3 @@ Solution strategy - What I am doing to fix the training compliance problem
 - Better and more circulated instructions - make tutorials and documentation guides - screenshot instructions, videos for users and managers. I'd create content, and have a manager and a user use the instructions and give me feedback. 
 - Create a user feedback loop to monitor whether they understand the process and con perform their tasks
 - Establish monitoring that aren't just training compliance KPIs? Meet with leaders on a routine basis? 
-
-
-
-Bedford Campus
-
-What went well
-The SFLMS implementation was completed in 2 years. Almost 100% of sites have integrated SFLMS and can be governed by Training Coordinators. A centralized platform is in place where the software is managed by a technical team that offloads the workload of the individual site. There is  consistency and has created links spanning the Training Coordinators across the company who had not previously interacted before. 
-
-What did not go well
-
-
-Although we have the capability, doing this would increase the cost of the license. Either there is a disconnect between the Human Resources Technical System team and the actual users where actions should be limited, no one collected the needs of the users before implementation, or the company did not evaluate the license enough. This would not be the first time-- The implementation of Oracle Cloud Platform Lifecycle Management had a similar issue where all users were granted authoring roles where they could initiate change orders to make their own document changes, but the company evaluated the license again, found that it was too expensive to provide everyone access, and removed almost everyone's author access level, which caused a host of production problems. 
-
-
-There are UI problems, and it's not intuitive to perform simple tasks. There are too many inputs and filters required that need to be selected instead of it having a strong search engine. There are all these nested folders and things you need to click to get where you need to be, if you find the answer, clicking the back button will sometimes reset everything, and the inactivity log-out window is quite short. 
-
-Finding information, language, and user interface. 
-
-The groups with the power over how SFLMS was implemented. Each group I spoke to 
-
-
-The project management did not take user input and needs into account, it was rushed, and the communication between the groups building the project wasn't effective enough. 
-
-
-The implementation was rushed, and the Training Coordinators did not have enough support or ability to provide input during the process. Training Coordinators transferred their site's previous training content to SFLMS in the curriculum structure, where they could define the initial due dates and whether they could be modified by managers. Multiple trainings can be grouped under a single curriculum to make it easier for managers to assign groups of trainings depending on their roles and responsibilities. This backfired when 
-
-
-There are multiple features that our site never utilized. The information and ability is technically out there, but it's not useful if it's this hidden or hard to find. 
-
-Issues with the current state: 
-Users are late on training. Leaders cannot 
-
-The migration timeline was too aggressive. 
-
-The implementation was rushed, and the Training Coordinators did not have enough support or opportunity to provide input throughout the process. The new platform layout is very complicated. From an admin perspective, performing simple tasks such as searching for a certain training or logging training to a user's learning history is complex. A long and specific set of clicks, filters, and toggling is required, and one wrong move messes it up, and it's unclear where you went wrong. IDs or descriptions will be needed at different stages of the process where you need to move back and forth instead of performing the steps in a linear way from within one window, and the inactivity time window is short. Search functions are hyper specialized and not broad enough for it to be helpful, requiring the user to switch between pages. 
