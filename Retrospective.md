@@ -1,46 +1,39 @@
 # Retrospective: the SuccessFactors LMS Integration Thermo Fisher Scientific 
 
-Thermo Fisher is a major supplier to the Biotech and Pharmaceutical industries and offer a broad range of products made possible by constant acquisitions. I am a Quality Engineer in the Purification business at the Bedford Campus in Massachusetts. My previous focus was investigations, and I have recently transitioned to the Training System. 
+Thermo Fisher is a major supplier to the Biotech and Pharmaceutical industries that offers a broad range of products made possible by acquisitions. I am a Quality Engineer in the Purification business unit located in Bedford and Chelmsford, Massachusetts. My previous focus was investigations, and I have recently changed roles to manage the Training System. 
 
-Because these companies were commercial prior to the acquisition, each business has its own legacy training program. Two years ago, Thermo Fisher made the decision to harmonize training across the sites by implementing SuccessFactors Learning Management System (SFLMS). 
-
-
-Before the implementation, my site was at 80% training compliance. After the implementation, we are only 25% personnel compliant. Despite these numbers, only 25% of individual trainings are late. This is my retrospective of the implementation of SFLMS and what I would have done differently. Based on their input, this retrospective is my assessment of the implementation of SFLMS to production processes and what I would have done differently. 
+Two years ago, there was a company-wide training harmonization that transitioned legacy training systems to the SuccessFactors Learning Management System (SFLMS). Currently, my business is 25% training compliant. Prior to implementation, we were 80% training compliant. This is my retrospective on the implementation of SFLMS and the actions I am taking to improve the system moving forward.
 
 
-## Personas and functions on SFLMS
-- users - site level, User Access rights. Functions/Actions: - open trainings, watch videos, read documents, sign up for training, access old training content, complete quizzes, request training extensions. Access rights: user
-= Managers - site level, Manager Acccess rights. Actions: same as users, and assign trainings, extend, unlock tests, remove trainings, see user completion status, perform 3-year training review. 
-- Training Coordinators - site level, SFLMS Admin rights. Functions: same as users and managers, create curriculums, set up content links, videos, quizzes, pull training metrics, present training during audits. 
-- Quality Assurance Analyst- Division level, SFLMS Admin rights. Fuctions: Project manage the integration, provide user input to the Human Resources and Technology Group, seek input from the training coordinators at each site, provide training coordinator support, communicate new features. 
-- Human Resources Technology Analyst - corporate. work with the software package to implement the platform, integrate APIs from associated systems (Workday, OCPLM, etc.). 
+## Personas 
+- User - Site-level direct contributor, User Access rights. Functions: review and complete trainings content: videos, documents, quizzes, sign up for training, access previous training content, request training extensions. 
+= Managers - Site-level leader with direct reports, Manager Acccess rights. Functions: same as users. In addition, assign, extend, and remove trainings for direct reports, unlock quizzes, view user completion status.
+- Training Coordinators - Site level, SFLMS Admin rights. Functions: same as users and managers. In addition, create curriculums and learning items that link documents, videos, and quizzes, generate training metrics, present training content during audits. 
+- Quality Assurance Analyst - Division level, SFLMS Admin rights. Functions: same as Users, Managers, and Training Coordinators. In addition, project manage the integration, provide user input to the Human Resources and Technology Group, seek input from the training coordinators at each site, provide Training Coordinator support, and develop and communicate new features. 
+- Human Resources Technology Analyst - Corporate level. Functions: works with the software package to implement the platform, integrate APIs from associated systems (Workday, OCPLM, etc.). 
 
-I have interviewed a Quality Analyst, my site training coordinator, managers, and users at my site. I have also interacted with SFLMS as a user, SFLMS Admin, and the legacy training system. 
+I have interviewed a Quality Analyst, my site's previous Training Coordinator, Managers, and Users at my site. I have also used SFLMS as a User and SFLMS Admin. 
 
 ## Problems 
-- Not enough foresight on user needs, inconsistent alliance across all personas to establish a platform to meet site needs. 
-- Functions limited by license type, and actions lack adequate controls. 
-- User interface makes it hard to perform routine functions and find information, which makes it hard to maintain. 
-- Rush timeline, a lot of mistakes 
-- once it's set up, it's hard to undo 
-- manual process 
 
 License type - limited functionality and lack of adequate controls. 
 - For example, Admins have the ability to add documents to a user's learning history, such as signed training completion forms that are pulled during audits. 
 
-Functional Challenges interface and 
-- Hierarchy of different training components is unclear, and the nesting structure cannot be traced upward. Different terminology and so many different item types disrupt communication across personas in the learning process and make it hard to make changes. As an SFLMS Admin, you can search for an item at the top level and see what is grouped down, but if you have the lowest level item, you cannot trace its path up to see what curriculums and items it is grouped in. 
-- Unintuitive interface makes finding information and performing tasks difficult. 
-- Functions require multiple pivots to find information that require its own set of clicks, then return to the main page to complete the tasks, instead of the task being self contined from a single window in a linear set of clicks. 
-- After pivoting to find the required information and returning to the original task page, the information will clear, and fast timeouts, inconsistent back-button availability, and the use of similar titles in different places make retracing steps difficult once you find the right process.
-- Search functions is not broad, precise filters and different steps are necessary to find the right information and require a long series of clicks in an unintuitive way from the user interface. Some of the steps to finding very simple information are like, once you learn them, I'm like, I never would've guessed that I needed to do that. There are other choices and toggles that sound the same but mean something different and have complete different outcomes. 
-- every single time you get it wrong, it tells you that there are no results. So there are too many filters. The first page setup wil lhave filters that have a default option that is exact match only, so it narrows down the search function from the start, and it's unclear what to change to find the desired result. 
+Functional Challenges - User Interface 
+
+- Unclear hierarchy of different training components; can view child items nested below but cannot trace upwards. 
+- Precise set of filters or steps are needed to perform basic functions or searches and require detailed local instructions. 
+- Functions require multiple pivots and clicks away from the main page for information instead of being a self-contained and linear process that can be completed from a single window. 
+- Fast session timeouts, inconsistent back-button availability, and session clearing 
+- Confusing terminology leads to communication issues across personas and complicates collaboration. 
+- Use of similar titles for completely different outcomes make it difficult to retrace steps or interpret system. 
 - From a user standpoint, its hard to interpret the user interface and know what to do to find what you want. Too many terms, 
 
 I'm unsure about how much the interface is defined by our license type or whether we had the ability to design the user interface ourselves. 
 
 
 Data Migration - Site level 
+- Not enough foresight on user needs, inconsistent alliance and communication across all personas to establish a platform that meets site needs
 - It was a rushed project, thousands of prior training records and current documents had to be set up manually. 
 - Future training logs must be performed manually. 
 - She didn't have the support, training, or bandwidth to do the job. 
@@ -50,6 +43,7 @@ Data Migration - Site level
 - Some choices were made about how the trainings were structured and grouped  were not what managers wanted and were set up in haste just to meet the launch deadline. 
 - There would be a selection where you could choose to make it only modifiable by an admin, so managers couldn't modify or unassign. 
 - To modify a parent curriculum to remove one training, you would have to "break" the entire thing and it would make everyone who was assigned those trainings late. 
+- Difficult to undo mistakes. 
 
 Solution strategy - What I am doing to fix the training compliance problem
 - Meet with all personas at the site so there's more of an alliance across the site. 
