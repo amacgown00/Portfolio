@@ -19,31 +19,28 @@ I have interviewed a Quality Analyst, my site's previous Training Coordinator, M
 License type - limited functionality and lack of adequate controls. 
 - For example, Admins have the ability to add documents to a user's learning history, such as signed training completion forms that are pulled during audits. 
 
+
 Functional Challenges - User Interface 
 
 - Unclear hierarchy of different training components; can view child items nested below but cannot trace upwards. 
 - Precise set of filters or steps are needed to perform basic functions or searches and require detailed local instructions. 
 - Functions require multiple pivots and clicks away from the main page for information instead of being a self-contained and linear process that can be completed from a single window. 
 - Fast session timeouts, inconsistent back-button availability, and session clearing 
-- Confusing terminology leads to communication issues across personas and complicates collaboration. 
-- Use of similar titles for completely different outcomes make it difficult to retrace steps or interpret system. 
-- From a user standpoint, its hard to interpret the user interface and know what to do to find what you want. Too many terms, 
+- Use of similar titles for completely different outcomes makes it difficult to retrace steps, interpret or navigate the system, and communicate across personas. 
 
 I'm unsure about how much the interface is defined by our license type or whether we had the ability to design the user interface ourselves. 
 
 
-Data Migration - Site level 
-- Not enough foresight on user needs, inconsistent alliance and communication across all personas to establish a platform that meets site needs
-- It was a rushed project, thousands of prior training records and current documents had to be set up manually. 
-- Future training logs must be performed manually. 
-- She didn't have the support, training, or bandwidth to do the job. 
-- Eliminating automated process introduces risk for mistakes about the most important process (OJTs, the biggest pain point)
-    - Required features such as due date,  other aspects of the training limitations. 
-- It uses a curriculum structure where you can choose to group trainings, but the downside is that if you are late in one, you are considered late at the group level, and you might be assigned training to a process that happens infrequently or are outside of your job responsibiltiies. Different sites with different products and different shifts, different roles. One training might be used across different departments and different curriculums 
-- Some choices were made about how the trainings were structured and grouped  were not what managers wanted and were set up in haste just to meet the launch deadline. 
-- There would be a selection where you could choose to make it only modifiable by an admin, so managers couldn't modify or unassign. 
-- To modify a parent curriculum to remove one training, you would have to "break" the entire thing and it would make everyone who was assigned those trainings late. 
-- Difficult to undo mistakes. 
+Data Migration
+- Inconsistent alliance and communication across Quality Analysts and Training Coordinators to identify site needs.
+- Quality Analysts did not have a technical background to have direct input on features. 
+- Short project timeline: +10 years of legacy training records and current documents were manually transferred by 2 people.
+- All automated processes were eliminated, making the system harder to maintain and increasing risk of mistakes from manual error. 
+- Restrictive grouping: to remove a training from a curriculum, an SFLMS Admin must "break" the entire curriculum and mark all users who were assigned as late, even if they had completed the training.
+- Many curriculums were incorrectly scoped and did not account for the differences in the business, making users late on processes that could not be completed based on shift, site, and roles, or are performed infrequently due to unpredictable product demand.
+- Many curriculums were created so they were only modifiable by an admin, so managers couldn't modify or unassign. 
+- Difficult to undo mistakes after initially setting it up. 
+
 
 Solution strategy - What I am doing to fix the training compliance problem
 - Meet with all personas at the site so there's more of an alliance across the site. 
