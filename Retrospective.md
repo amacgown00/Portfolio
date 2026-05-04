@@ -41,8 +41,8 @@ Data Migration
 
 
 ## Solution - What I am doing to fix the training compliance problem
-- Conduct meetings with managers understand what their barriers with the current system, what they liked about the legacy system, and what they need changed 
-- Developing a website that allows managers to review and reorganize the curriculum structure. 
+- Conducting meetings with managers to understand their barriers, needs, what they liked about the legacy system, and how to support them after the curriculum corrections have been made. 
+- Developing a website that allows managers to review and reorganize the curriculum structure, create new groups, and track changes. s
 - Figure out what the new software can and can't do, what admins can't do and what they are allowed to do.
 - Establish consistent markers of groups. Current APIs add irrelevant IDs are currently added that make it hard to identify or pull accurate information because it's determined by HR or other departments that might not be always up to date or be grouping different things.
 - make information more available - data and trending and automation (reports are bad and manual, no API access), supplementary search functions or tools 
