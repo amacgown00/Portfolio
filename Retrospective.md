@@ -1,9 +1,8 @@
 # Retrospective: the SuccessFactors LMS Integration Thermo Fisher Scientific 
 
-Thermo Fisher is a major supplier to the Biotech and Pharmaceutical industries that offers a broad range of products made possible by acquisitions. I am a Quality Engineer in the Purification business unit located in Bedford and Chelmsford, Massachusetts. My previous focus was investigations, and I have recently changed roles to manage the Training System. 
+Thermo Fisher is a major supplier to the Biotech and Pharmaceutical industries that offers a broad range of products made possible by acquisitions. I am a Quality Engineer in the Purification business unit located in Bedford and Chelmsford, Massachusetts. My previous focus was investigations, and I have recently transitioned roles to manage the Training System. 
 
-Two years ago, there was a company-wide training harmonization that transitioned legacy training systems to the SuccessFactors Learning Management System (SFLMS). Currently, my business is 25% training compliant. Prior to implementation, we were 80% training compliant. This is my retrospective on the implementation of SFLMS and the actions I am taking to improve the system moving forward.
-
+Two years ago, there was a company-wide training harmonization that transitioned legacy training platforms to the SuccessFactors Learning Management System (SFLMS). Currently, my business is 25% training compliant. Prior to implementation, we were 80% training compliant. This is my retrospective on the implementation of SFLMS and the actions I am taking to resolve and improve moving forward.
 
 ## Personas 
 - User - Site-level direct contributor, User Access rights. Functions: review and complete trainings content, complete quizzes, sign up for training, access previous training content, request training extensions. 
@@ -14,38 +13,35 @@ Two years ago, there was a company-wide training harmonization that transitioned
 
 ## Problems 
 
-License type - limited functionality and lack of adequate controls. 
+### License type - limited functionality and lack of adequate controls. 
 - For example, Admins have the ability to add documents to a user's learning history, such as signed training completion forms that are pulled during audits. 
 
-
 ## Functional Challenges - User Interface 
-
 - Unclear hierarchy of different training components; can view child items nested below but cannot trace upwards. 
 - Precise set of filters or steps are needed to perform basic functions or searches and require detailed local instructions. 
 - Functions require multiple pivots and clicks away from the main page for information instead of being a self-contained and linear process that can be completed from a single window. 
-- Fast session timeouts, inconsistent back-button availability, and session clearing 
+- Fast session timeouts, inconsistent back-button availability, and window pivots clearing previous data.
 - Use of similar titles for completely different outcomes makes it difficult to retrace steps, interpret or navigate the system, and communicate across personas. 
-
-I'm unsure about how much the interface is defined by our license type or whether we had the ability to design the user interface ourselves. 
+- It is unclear to what extent the interface is defined and limited by our license type, how much was internally designed, and what was involved in the development and user acceptance testing. 
 
 
 Data Migration
 - Inconsistent alliance and communication across Quality Analysts and Training Coordinators to identify site needs.
 - Quality Analysts did not have a technical background to have direct input on features. 
+- APIs were pulled in from other platforms and added inconsistent IDs to learning items and user accounts identify accurate groups or patterns because they were not updated or meant something different.
 - Short project timeline: +10 years of legacy training records and current documents were manually transferred by 2 people.
 - All automated processes were eliminated, making the system harder to maintain and introducing risk of manual error. 
 - Restrictive grouping: to remove a training from a curriculum, an SFLMS Admin must "break" the entire curriculum and mark all users who were assigned as late, even if they had completed the training.
-- Many curriculums were incorrectly scoped and did not account for the differences in the business, making users late on processes that could not be completed based on shift, site, and roles, or are performed infrequently due to unpredictable product demand.
+- Many curriculums were incorrectly scoped and did not account for the differences in the business, making users late on processes that could not be completed based on shift, site, or roles, in addition to processes that are performed infrequently due to unpredictable product demand.
 - Many curriculums were created so they were only modifiable by an admin, so managers couldn't modify or unassign. 
-- Difficult to undo mistakes after initially setting it up. 
-
+- Difficult to undo mistakes after the intial setup. 
 
 ## Solution - What I am doing to fix the training compliance problem
-- Conducting meetings with managers to understand their barriers, needs, what they liked about the legacy system, and how to support them after the curriculum corrections have been made. 
-- Developing a website that allows managers to review and reorganize the curriculum structure, create new groups, and track changes. s
-- Figure out what the new software can and can't do, what admins can't do and what they are allowed to do.
-- Establish consistent markers of groups. Current APIs add irrelevant IDs are currently added that make it hard to identify or pull accurate information because it's determined by HR or other departments that might not be always up to date or be grouping different things.
-- make information more available - data and trending and automation (reports are bad and manual, no API access), supplementary search functions or tools 
-- Better and more circulated instructions - make tutorials and documentation guides - screenshot instructions, videos for users and managers. I'd create content, and have a manager and a user use the instructions and give me feedback. 
-- Create a user feedback loop to monitor whether they understand the process and con perform their tasks
-- Establish monitoring that aren't just training compliance KPIs? Meet with leaders on a routine basis
+- Meeting with managers to understand their barriers, needs, what they liked about the legacy system, and how to support them after the curriculums have been corrected. 
+- Identifying software limitations across account types.
+- Defining consistent, site-relevant IDs to reliably track users across sites and departments. 
+- Using AI to develop supplementary tools to bridge the gap between the SFLMS UI and site user needs: 
+    - Website to review and reorganize the curriculum structure with managers for their functional group.
+    - Expanded search functions that show curriculum IDs and descriptions, user IDs, curriculum hierarchy, and direct report assignments. 
+- Creating written guides and videos on how to navigate and perform manager and user actions in SFLMS.
+- Establishing surveys and user and manager feedback loops to identify gaps and improvement opportunities. 
