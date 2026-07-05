@@ -120,7 +120,7 @@ Properties
 </tr>
 </table>
 
-## Service Path - /learning/odatav4/searchStudent/v1/
+## Service Path - `/learning/odatav4/searchStudent/v1/`
 
 
 <table>
@@ -190,7 +190,7 @@ $filter=criteria/learnerID eq '00342456'"
 </td></tr>
 </table>
 
-## Service Path - /learning/odatav4/public/user/userlearning-service/v1/
+## Service Path - `/learning/odatav4/public/user/userlearning-service/v1/`
 
 <table>
 
@@ -268,7 +268,7 @@ Properties
 
 
 <!---New row-->
-## Service Path - /learning/odatav4/public/user/learningplan-service/v1/
+## Service Path - `/learning/odatav4/public/user/learningplan-service/v1/`
 
 <table>
 
@@ -379,7 +379,7 @@ Properties
 </table>
 
 <!--New row-->
-## Service Path - /learning/odatav4/public/admin/curriculum-service/v1/
+## Service Path - `/learning/odatav4/public/admin/curriculum-service/v1/`
 
 <table>
 
