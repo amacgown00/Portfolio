@@ -82,7 +82,7 @@ data = response.json()
 $filter=contains(criteria/curriculumID,'cur-lsg-bed-pilo-5')&$count=true&$top=1
 ```
 
-Properties
+Parameters
 - criteria/curriculumID
 - criteria/curriculumIDOperator
 - criteria/curriculumTitle
@@ -203,7 +203,7 @@ $filter=criteria/learnerID eq '00342456'"
 $filter=criteria/targetUserID eq '00342456'
 ```
 
-Properties 
+Parameters 
 - criteria/maxNumberToRetrieve
 - criteria/itemID
 - criteria/itemTypeID
@@ -283,7 +283,7 @@ Properties
 $filter=criteria/targetUserID eq '00342456'
 ```
 
-Properties
+Parameters
 - criteria/minRowNum
 - criteria/maxRowNum
 - criteria/qualItemsAndReqThresholdDays
@@ -394,7 +394,7 @@ Properties
 $filter=cisCriteria/targetUserID eq '00142180' and cisCriteria/curriculumID eq 'CUR-LSG-BED-QA-0058' and cisCriteria/rootCurriculumID eq 'CUR-LSG-BED-QA-5010'
 ```
 
-Properties
+Parameters
 - cisCriteria/userID
 - cisCriteria/personGUID
 - cisCriteria/curriculumID
@@ -458,7 +458,7 @@ Properties
 $filter=criteria/userID eq '00342456'&$top=1"
 ```
 
-Properties
+Parameters
 - criteria/userID
 - criteria/personGUID
 - criteria/curriculumID
@@ -502,7 +502,7 @@ Properties
 $filter=icriteria/itemID eq 'LSG-GBL-50376028'&$top=1&$count=true
 ```
 
-Properties 
+Parameters 
 - icriteria/itemID
 - icriteria/itemTypeIDs
 - icriteria/revisionDate
@@ -556,7 +556,7 @@ Properties
 $filter=scriteria/learnerID eq '00342456'&$count=true
 ```
 
-Properties 
+Parameters 
 - scriteria/learnerID
 - scriteria/personGUID
 - scriteria/personExternalID
