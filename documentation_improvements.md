@@ -39,6 +39,8 @@ Here are things I would change about the product.
 - Once a revision is retired, the PUT/POST calls should by default only update the active revision. 
 - Create a separate service to call and update past revisions. 
 
+1. There is no way of identifying the SAP endpoints the organization has implemented.  
+
 2. Add jobLocID as a query property in the user search service paths. 
 - It is a critical property in large organizations. 
 - Without it, accurate user reporting data cannot be fully automated. 

@@ -1,2 +1,0 @@
-# Handling Git Merge Conflicts
-
